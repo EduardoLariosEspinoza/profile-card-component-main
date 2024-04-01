@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background: #19a1ae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#img-bot,
+#img-top {
+  position: absolute;
+  width: 38.875rem;
+  height: 38.8125rem;
+  z-index: 0;
+}
+
+#img-top {
+  top: -20rem;
+  left: -20rem;
+}
+
+#img-bot {
+  bottom: -18rem;
+  right: -24rem;
+}
+
+#card {
+  position: relative;
+  z-index: 1;
+  width: 21.875rem;
+  min-height: 23.375rem;
+  height: auto;
+  background-color: white;
+  border-radius: 0.9375rem;
+  box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 5.44rem 0 1.69rem;
+  align-items: center;
+}
+
+#card > hr {
+  width: 100%;
+  height: 0.0625rem;
+  background: #e8e9ec;
+  border: none;
+}
+
+#card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8.75rem;
+  border-top-left-radius: 0.9375rem;
+  border-top-right-radius: 0.9375rem;
+}
+
+#profile-photo {
+  position: relative;
+  z-index: 99;
+  width: 6rem;
+  height: auto;
+  border-radius: 6rem;
+  border: 5px solid #fff;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.81rem;
+  text-align: center;
+  margin-bottom: 0.25rem;
+}
+
+#info > h1 {
+  color: #2e3349;
+  text-align: center;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#info > span {
+  color: #6b7082;
+  font-weight: 400;
+}
+
+#info > p {
+  color: #6b7082;
+  text-align: center;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#account {
+  width: 66%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.account-numbers {
+  display: flex;
+  flex-direction: column;
+  gap: 0.56rem;
+  align-items: center;
+}
+
+.account-numbers > h1 {
+  color: #2e3349;
+  text-align: center;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.account-numbers > p {
+  color: #6b7082;
+  font-size: 0.625rem;
+  font-weight: 400;
+  letter-spacing: 0.09375rem;
+}
